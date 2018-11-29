@@ -58,6 +58,10 @@
 		$('.menu-list ul').slideUp(300);
 	});
 
+	$('.menu-list li').on('click', function() {
+		$('body').removeClass('menu-is-opened').addClass('menu-is-closed');
+		$('.menu-list ul').slideUp(300);
+	})
 
 	/*-------------------------------------------------------------------------------
 	  Owl Carousel
