@@ -1218,6 +1218,7 @@ a.brand:focus{
 }
 
 .resume-title{
+  text-transform: uppercase;
   position: relative;
   background:  rgba(243,202,47,0.6);
   padding: 1rem;
